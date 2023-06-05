@@ -1,7 +1,9 @@
-* {
-    font-family: 'Nunito', sans-serif;
-    font-size: 12pt;
-    color:dimgray;
-    text-align: center;
-    background: #F7ECDE;
+.img-hover img:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.20); /* Safari and Chrome */
+    -moz-transform:scale(1.20); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.20); /* Opera */
+    transform:translatZ(0) scale(1.20);
 }

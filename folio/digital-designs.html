@@ -43,7 +43,28 @@
 
 <!--BODY HERE-->
 <main>
-    
+    <div class="container" id="cardContainer">
+        
+        <div class="card-group mb-3">
+            <div class="card m-3" style="border-width: 0px; border-radius: 30px;">
+                <img src="../images/digital/digital-a.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card m-3" style="border-width: 0px; border-radius: 30px;">  
+                <img src="../images/digital/digital-b.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card m-3" style="border-width: 0px; border-radius: 30px;">
+                <img src="../images/digital/digital-c.png" class="card-img-top" alt="...">
+            </div>
+        </div>
+
+        <div class="card-group mb-3" id="cardRow"></div>
+
+    </div> <!--END OF CONTAINER-->
+
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-sm" id="loadMore" style="background-color: #389393;" type="button" onclick="loadMoreCards()">Load More</button>
+    </div>
+
 </main>
 
 <!--FOOTER HERE-->
@@ -61,5 +82,6 @@
             </footer>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="../js/script-dig.js"></script>
     </body>
     </html>

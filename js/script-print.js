@@ -1,21 +1,3 @@
-function checkPassword() {
-    var password = document.getElementById("passwordInput").value;
-    
-    if (password == "1234") {
-        window.location.href = "https://karlasebandal.github.io/folio/branding.html"; // Replace "redirect.html" with the desired redirect page
-    } else {
-        alert("Incorrect password. Please try again.");
-    }
-}
-
-function checkEnter(event) {
-    if (event.keyCode === 13) {
-        checkPassword();
-    }
-}
-
-
-
 var cardsPerPage = 3;
 var currentPage = 1;
 var totalCards = 6;
@@ -43,7 +25,7 @@ var cardRowHTML = '';
       var card = `
       <div class="col-sm-4 mb-4">
         <div class="card m-3" style="border-width: 0px; border-radius: 30px;">
-          <img src="../images/branding/image${i + 1}.png" class="card-img-top" alt="Card Image">
+          <img src="../images/prints/image${i + 1}.png" class="card-img-top" alt="Card Image">
         </div>
       </div>
     `;

@@ -1,7 +1,7 @@
 function checkPassword() {
     var password = document.getElementById("passwordInput").value;
     
-    if (password === "1234") {
+    if (password == "1234") {
         window.location.href = "https://karlasebandal.github.io/folio/branding.html"; // Replace "redirect.html" with the desired redirect page
     } else {
         alert("Incorrect password. Please try again.");
